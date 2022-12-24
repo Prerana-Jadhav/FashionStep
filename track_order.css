@@ -1,0 +1,143 @@
+
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    
+}
+body{
+    background-color: #F3FBFC;
+}
+.navbar{
+    background-color:#F5F2F2;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: right;
+    list-style: none;
+    margin: 9px 16px;
+    padding-top: 2px;
+   
+}
+.navbar li a{
+    padding: 3px 3px;
+    /* margin-left: 8em; */
+    text-decoration: none;
+    color: black;
+}
+.navbar .home{
+    margin-top: 0.5em;
+    margin-left: 0em;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+}
+.navbar1 .search{
+    float: right;
+    margin-right: 2em;
+}
+.navbar1 input{
+    border: 2px solid black;
+    border-radius: 5em;
+    padding: 5px 5px;
+    width: 200px;
+    text-align: center;
+}
+.navbar1{
+    background-color:white;
+    
+}
+.navbar1 ul{
+    overflow: auto;
+}
+.navbar1 li{
+    float:left;
+    text-align: center;
+    list-style: none;
+    /* margin: 20px 20px; */
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-top: 0.5em;
+    padding-top: 2px;
+    padding-bottom: 6px;
+   
+}
+.navbar1 li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: black;
+}
+.navbar1 li a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+    padding: 4px;
+}
+.navbar1 .search .icon{
+    padding: 10px;
+    text-align: right;
+}
+
+
+
+.cc-check-order{
+margin-left: 26.5em;
+margin-top: 5em;
+line-height: 2em;
+
+}
+
+.cc-check-order-content-button button{
+margin-top: 1rem;
+border-color: #FF0000;
+max-width: 100rem;
+cursor: pointer;
+padding: 0.4em 5em;
+}
+
+.co{
+margin-left: 14rem;
+margin-top: 3rem;
+}
+
+
+.footer{
+margin-top: 610px;
+}
+.footer .box-container{
+/* border: 2px solid black;
+border-radius: .5rem; */
+background: #F5F2F2;
+padding: 0.5rem;
+padding-bottom: 0em;
+display: flex;
+flex-wrap: wrap;
+gap: 0.5rem;
+}
+.footer .box-container .box{
+flex: 1 1 5rem;
+color: black;
+}
+.footer .box-container .box a{
+color: black;
+font-size: 1rem;
+/* padding-bottom: 0.5rem; */
+/* display: block; */
+text-decoration: none;
+}
+.footer .box-container .rights{
+font-size: larger;
+font-weight: bold;
+text-align: center;
+width: 100%;
+}
+.footer .box-container .box1 a{
+size: 500px;
+/* width: 1000rem; */
+}
+.footer .box-container .box1 h3{
+font-size:larger;
+text-align:center;
+height: max-content;
+}

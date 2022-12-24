@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment Proceed</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <style>
+        .FS{
+            position: relative;
+            top: -30px;
+            background-color: #E0D0EC;
+            text-align: center;
+            font-size: 30px;
+            font-style: oblique;
+            padding: 5px;
+        }
+        .Card{
+            font-weight: normal;
+            position: relative;
+            top: -20px;
+            left: 350px;
+            background-color: #e1c4f7;
+            width: 800px;
+            height: 240px;
+        }
+        .OI{
+            text-align: center;
+            position: relative;
+            top: 15px;
+            left: 180px;
+            font-size: larger;
+            background-color: rgb(210, 207, 207);
+            padding: 5px;
+            width: 430px;
+        }
+        #C{
+            font-weight: normal;
+            position: relative;
+            left: 200px;
+            top: -10px;
+        }
+        #cn{
+            position: relative;
+            top: -40px;
+            left: 300px;
+            font-size: larger;
+            font-weight: normal;
+            text-align: center;
+        }
+        #e{
+            position: relative;
+            top: -5px;
+            left: -25px;
+            font-size: larger;
+            font-weight: normal;
+            text-align: center;
+        }
+        #cvv{
+            position: relative;
+            top: -5px;
+            left: -25px;
+            font-size: larger;
+            font-weight: normal;
+            text-align: center;
+        }
+        #AI{
+            position: relative;
+            top: -5px;
+            left: 190px;
+            font-weight: normal;
+        }
+        #PP{
+            position: relative;
+            top: -40px;
+            left: 305px;
+            font-weight: normal;
+            color: red;
+        }
+        .Cancel{
+            position: relative;
+            top: -49px;
+            left: 190px;
+            width: 200px;
+            font-size: larger;
+        }
+        .Cancel:hover{
+            color: white;
+            background-color: red;
+        }
+        .PaN{
+            position: relative;
+            top: -93px;
+            left: 410px;
+            width: 200px;
+            font-size: larger;
+            background-color: orange;
+            color: white;
+        }
+        #nav-placeholder2{
+            position: relative;
+            top: 150px;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <div id="nav-placeholder"></div>
+    <script>
+        $(function(){
+        $("#nav-placeholder").load("navbar.html");
+        });
+    </script>
+    <!--end of Navigation bar-->
+    <nav class="FS">Fashion Steps</nav>
+    <div class="Card">
+        <div class="OI">Order ID: BW39322200342861</div>
+        <br><p id="C"> Cart </p><br>
+        <input type="text" name="CN" id="cn" placeholder="Card Number">
+        <input type="text" name="CN" id="e" placeholder="Expiry">
+        <input type="text" name="CN" id="cvv" placeholder="CVV">
+        <p id="AI">I agree with the <p id="PP">Privacy Policy</p></p>
+        <p id="CL"><a href="Add_To_Cart.html"><button class="Cancel">Cancel</button></a></p>
+        <p id="PN"><a href="Success.html"><button class="PaN">PAY NOW</button></a></p>
+    </div>
+    <div id="nav-placeholder2"></div>
+    
+    <script>
+    $(function(){
+    $("#nav-placeholder2").load("footer.html");
+    });
+    </script>
+</body>
+</html>

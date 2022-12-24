@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>navbar</title>
+    <style>
+        *{
+            font-family: 'Roboto', sans-serif;
+            font-weight: bold;
+        }
+        .navbar{
+            position: relative;
+            top: -15px;
+            background-color:#F5F2F2;
+        }
+        .navbar ul{
+            overflow: auto;
+        }
+        .navbar li{
+            float: right;
+            list-style: none;
+            margin: 9px 16px;
+            padding-top: 2px;
+           
+        }
+        .navbar li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: black;
+        }
+        .navbar .home{
+            margin-top: 0.5em;
+            margin-left: 0em;
+        }
+        .navbar li a:hover{
+            text-decoration: underline;
+        }
+        .navbar1 .search{
+            float: right;
+            margin-right: 2em;
+        }
+        .navbar1 input{
+            border: 2px solid black;
+            border-radius: 5em;
+            padding: 5px 5px;
+            width: 200px;
+            text-align: center;
+        }
+        .navbar1{
+            position: relative;
+            top: -30px;
+            background-color:white;
+            
+        }
+        .navbar1 ul{
+            overflow: auto;
+        }
+        .navbar1 li{
+            float:left;
+            text-align: center;
+            list-style: none;
+            /* margin: 20px 20px; */
+            margin-left: 6em;
+            margin-right: 6em;
+            margin-top: 0.5em;
+            padding-top: 2px;
+            padding-bottom: 6px;
+           
+        }
+        .navbar1 li a{
+            padding: 3px 3px;
+            text-decoration: none;
+            color: black;
+        }
+        .navbar1 li a:hover{
+            background-color: black;
+            color: white;
+            border-radius: 1em;
+            padding: 4px;
+        }
+        .navbar1 .search .icon{
+            padding: 10px;
+            position: relative;
+            top: 2.5px;
+            cursor: pointer;
+            text-align: right;
+        }
+        #Home{
+            position: relative;
+            top: -10px;
+            right: 300px;
+            text-align: center;
+            font-family: 'Niconne';
+            font-style: italic;
+            font-size: 55px;
+            color: red;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div>
+    <nav class="navbar">
+        <ul>
+            <li><a href="Add_To_Cart.html"><img src="https://cdn-icons-png.flaticon.com/128/2838/2838838.png" alt="" style="width:2rem"></a></li>
+            <li><a href="track_order.html"><img src="https://cdn-icons-png.flaticon.com/128/71/71222.png" alt="" style="width:2rem"></a></li>
+            <li><a href="feedback.html">Help</a></li>
+            <li><a href="login.html">Login</a></li>
+            <li id="Home" ><a href="home.html">Fashion Steps</a></li>
+            
+            <div class="home">
+                <a href="home.html"><img src="https://cdn-icons-png.flaticon.com/128/25/25694.png" alt="" style="width:2rem"></a>
+            </div>
+        </ul>
+        
+    </nav>
+    <nav class="navbar1">
+        <ul>
+            <li><a href="sneakers.html">Sneakers Studio</a></li>
+            <li><a href="men.html">Men</a></li>
+            <li><a href="women.html">Women</a></li>
+            <li><a href="kids.html">Kids</a></li>
+
+            <div class="search">
+                <input type="text" name="search" id="search" placeholder="Search"> 
+                <i class="icon"><img src="https://cdn-icons-png.flaticon.com/128/149/149852.png" alt="" style="width:1rem ;"></i>
+            </div>
+        </ul>
+    </nav>
+</div>
+</header>
+</body>
+</html>

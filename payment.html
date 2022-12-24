@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <style>
+        .PtO{
+            background-color: #E0D0EC;
+            padding: 10px;
+            text-align: center;
+            position: relative;
+            top: -28px;
+            font-size: 30px;
+        }
+        .Opt{
+            background-color: rgb(216, 216, 216);
+            text-align: center;
+            width: 600px;
+            position: relative;
+            top: -20px;
+            left: 450px;
+        }
+        .ID{
+            position: relative;
+            top: 20px;
+            font-size: larger;
+            color: white;
+            background-color: #b46beb;
+            padding: 5px;
+        }
+        .C{
+            width: 400px;
+            position: relative;
+            top: 20px;
+            left: 100px;
+            color: #b46beb;
+            background-color: white;
+            padding: 5px;
+            cursor: pointer;
+            height: 50px;
+            text-align: center;
+        }
+        .C:hover{
+            color: #9c22f9;
+        }
+        .CI{
+            position: relative;
+            top: -5px;
+            right: 150px;
+        }
+        #Cd{
+            position: relative;
+            top: -55px;
+        }
+        #d1{
+            position: relative;
+            top: -75px;
+        }
+        .NB{
+            width: 400px;
+            position: relative;
+            top: 20px;
+            left: 100px;
+            color: #b46beb;
+            background-color: white;
+            padding: 5px;
+            cursor: pointer;
+            height: 50px;
+            text-align: center;
+        }
+        .NB:hover{
+            color: #9c22f9;
+        }
+        .NBI{
+            position: relative;
+            top: -5px;
+            right: 150px;
+        }
+        #Nb{
+            position: relative;
+            top: -55px;
+        }
+        #d2{
+            position: relative;
+            top: -70px;
+        }
+        .W{
+            width: 400px;
+            position: relative;
+            top: 20px;
+            left: 100px;
+            color: #b46beb;
+            background-color: white;
+            padding: 5px;
+            cursor: pointer;
+            height: 50px;
+            text-align: center;
+        }
+        .W:hover{
+            color: #9c22f9;
+        }
+        .WI{
+            position: relative;
+            top: -5px;
+            right: 150px;
+        }
+        #Wl{
+            position: relative;
+            top: -55px;
+        }
+        #d3{
+            position: relative;
+            top: -70px;
+        }
+        .P{
+            width: 400px;
+            position: relative;
+            top: 20px;
+            left: 100px;
+            color: #b46beb;
+            background-color: white;
+            padding: 5px;
+            cursor: pointer;
+            height: 50px;
+            text-align: center;
+        }
+        .P:hover{
+            color: #9c22f9;
+        }
+        .PI{
+            position: relative;
+            top: -5px;
+            right: 150px;
+        }
+        #Pt{
+            position: relative;
+            top: -55px;
+        }
+        #d4{
+            position: relative;
+            top: -70px;
+        }
+        .U{
+            width: 400px;
+            position: relative;
+            top: 20px;
+            left: 100px;
+            color: #b46beb;
+            background-color: white;
+            padding: 5px;
+            cursor: pointer;
+            height: 50px;
+            text-align: center;
+        }
+        .U:hover{
+            color: #9c22f9;
+        }
+        .UI{
+            position: relative;
+            top: -5px;
+            right: 150px;
+        }
+        #Up{
+            position: relative;
+            top: -55px;
+        }
+        #d5{
+            position: relative;
+            top: -70px;
+        }
+        .PL{
+            width: 400px;
+            position: relative;
+            top: 20px;
+            left: 100px;
+            color: #b46beb;
+            background-color: white;
+            padding: 5px;
+            cursor: pointer;
+            height: 50px;
+            text-align: center;
+        }
+        .PL:hover{
+            color: #9c22f9;
+        }
+        .PLI{
+            position: relative;
+            top: -5px;
+            right: 150px;
+        }
+        #Pl{
+            position: relative;
+            top: -55px;
+        }
+        #d6{
+            position: relative;
+            top: -70px;
+        }
+        .COD{
+            position: relative;
+            top: 20px;
+            font-size: larger;
+            color: white;
+            background-color: #b46beb;
+            padding: 5px;
+            cursor: pointer;
+        }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <div id="nav-placeholder">
+
+    </div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("navbar.html");
+});
+</script>
+<!--end of Navigation bar-->
+    <nav class="PtO">Payment Options</nav>
+    <div class="Opt">
+        <div class="ID">Order ID: BW39322200342861</div>
+        <div class="OptSc">
+            <!-- 1st -->
+            <div class="C">
+                <div class="CI">
+                <img src="https://cdn-icons-png.flaticon.com/512/3037/3037247.png" alt="" width="50px"></div>
+                <p id="Cd"> <a href="payment_proceed.html"> Card </a></p>
+                <p id="d1">_____________________________________________</p>
+            </div>
+            <!-- 2nd -->
+            <div class="NB">
+                <div class="NBI">
+                <img src="https://cdn-icons-png.flaticon.com/512/66/66455.png" alt="" width="50px"></div>
+                <p id="Nb">Net-Banking</p>
+                <p id="d2">_____________________________________________</p>
+            </div>
+            <!-- 3rd -->
+            <div class="W">
+                <div class="WI">
+                <img src="https://cdn-icons-png.flaticon.com/512/879/879864.png" alt="" width="45px"></div>
+                <p id="Wl">Wallet</p>
+                <p id="d3">_____________________________________________</p>
+            </div>
+            <!-- 4th -->
+            <div class="P">
+                <div class="PI">
+                <img src="https://cdn-icons-png.flaticon.com/512/825/825454.png" alt="" width="50px"></div>
+                <p id="Pt">Paytm</p>
+                <p id="d4">_____________________________________________</p>
+            </div>
+            <!-- 5th -->
+            <div class="U">
+                <div class="UI">
+                <img src="https://cdn-icons-png.flaticon.com/512/2846/2846954.png" alt="" width="50px"></div>
+                <p id="Up">UPI</p>
+                <p id="d5">_____________________________________________</p>
+            </div>
+            <!-- 6th -->
+            <div class="PL">
+                <div class="PLI">
+                <img src="https://cdn-icons-png.flaticon.com/512/8340/8340160.png" alt="" width="50px"></div>
+                <p id="Pl">Pay LATER</p>
+                <p id="d6">_____________________________________________</p>
+            </div>
+        </div>
+        <div class="COD">Cash On Delivery</div> <br> <br>
+    </div>
+    <div id="nav-placeholder2">
+
+    </div>
+    
+    <script>
+    $(function(){
+    $("#nav-placeholder2").load("footer.html");
+    });
+    </script>
+</body>
+</html>

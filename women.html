@@ -1,0 +1,588 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Women</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js" ></script>
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <style>
+         body{
+            height: 100%;
+            width: 100%;
+            background-image:url('womenback.png');  
+            background-repeat: no-repeat; 
+            background-size: 1570px 1448px;   
+        } 
+        ._5THWM1{
+            font-size: large;
+            padding: 5px;
+            left: 150px;
+            height: 25px;
+            position: relative;
+            background-color: white;
+            top: -30px;
+            font-family: Arial,sans-serif;
+        }
+        ._2i7N3j{
+            top: 2px;
+            position: relative;
+            left: 20px;
+            cursor: pointer;
+        }
+        ._2i7N3j:hover{
+            color: orangered;
+        }
+        ._10UF8M_3LsR0e{
+            position: relative;
+            top: -18px;
+            left: 200px;
+            cursor: pointer;
+        }
+        ._10UF8M_3LsR0e:hover{
+            color: orangered;
+        }
+        ._10UF8M{
+            position: relative;
+            top: -40px;
+            left: 450px;
+            right: 400px;
+            cursor: pointer;
+        }
+        ._10UF8M:hover{
+            color: orangered;
+        }
+        #PLH{
+            position: relative;
+            top: -60px;
+            left: 650px;
+            cursor: pointer;
+        }
+        #PLH:hover{
+            color: orangered;
+        }
+        #PHL{
+            position: relative;
+            top: -81px;
+            left: 900px;
+            cursor: pointer; 
+        }
+        #PHL:hover{
+            color: orangered;
+        }
+        #NF{
+            position: relative;
+            top: -103px;
+            left: 1180px;
+            cursor: pointer; 
+        }
+        #NF:hover{
+            color: orangered;
+        }
+        .heels{
+            position: relative;
+            top: -15px;
+            text-align: center;
+            font-family: 'Girassol', cursive;
+            font-style: italic;
+            color: rgb(242, 0, 0);
+            font-size: 75px;
+        }
+        .women{
+            position: relative;
+            top:-150px;
+            font-family: italic;
+            font-style: italic;
+            font-weight: 400;
+            font-size: 70px;
+            width: 200px;
+            line-height: 116px;
+            display: flex;
+            align-items: center;
+            letter-spacing: 0.015em;
+            color: #000000;
+        }
+        .footwear{
+            font-size: 25px;
+            position: relative;
+            top: -150px;
+            margin: 20px;
+            background-color: white;
+            text-align: center;
+            height: 550px;
+            width: 320px;
+            color: #878787;
+        }
+        .FT{
+            color: #585555;
+            font-size: larger;
+            font-style: normal;
+            cursor: pointer;
+            margin-left: 15px;
+        }
+        .FT:hover{
+            text-decoration: underline;
+        }
+        .SS{
+            position: relative;
+            left: -61px;
+            cursor: pointer;
+        }
+        .SS:hover{
+            text-decoration: underline;
+        }
+        .CS{
+            position: relative;
+            left: -25px;
+            cursor: pointer;
+        }
+        .CS:hover{
+            text-decoration: underline;
+        }
+        .SF{
+            position: relative;
+            left: 2px;
+            cursor: pointer;
+        }
+        .SF:hover{
+            text-decoration: underline;
+        }
+        .FF{
+            position: relative;
+            left: -40px;
+            cursor: pointer;
+        }
+        .FF:hover{
+            text-decoration: underline;
+        }
+        .L{
+            position: relative;
+            left: -51px;
+            cursor: pointer;
+        }
+        .L:hover{
+            text-decoration: underline;
+        }
+        .B{
+            position: relative;
+            left: -60px;
+            cursor: pointer;
+        }
+        .B:hover{
+            text-decoration: underline;
+        }
+        .RS{
+            position: relative;
+            left: -12px;
+            cursor: pointer;
+        }
+        .RS:hover{
+            text-decoration: underline;
+        }
+        .S1{
+            font-size: larger;
+            position: relative;
+            top: -720px;
+            left: 350px;
+            color: white;
+        }
+        .star1{
+            background-color: #878787;
+            text-align: center;
+            height: auto;
+            width: 300px;
+        }
+        .atc1{
+            font-weight: bold;
+            cursor: pointer;
+            position: relative;
+            left: -3px;
+            text-align: center;
+            width: 290px;
+            padding: 3px;
+            background-color: orange;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        .atc1 a{
+            text-decoration: none;
+            color: white;
+        }
+        .S2{
+            font-size: larger;
+            position: relative;
+            top: -1060px;
+            left: 750px;
+            color: white;
+        }
+        .star2{
+            background-color: #878787;
+            text-align: center;
+            height: auto;
+            width: 300px;
+        }
+        .atc2{
+            font-weight: bold;
+            cursor: pointer;
+            position: relative;
+            left: -3px;
+            text-align: center;
+            text-decoration: none;
+            width: 290px;
+            padding: 3px;
+            background-color: orange;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        .atc2 a{
+            text-decoration: none;
+            color: white;
+        }
+        .S3{
+            font-size: larger;
+            position: relative;
+            top: -1400px;
+            left: 1150px;
+            color: white;
+        }
+        .star3{
+            background-color: #878787;
+            text-align: center;
+            height: auto;
+            width: 300px;
+        }
+        .atc3{
+            font-weight: bold;
+            cursor: pointer;
+            position: relative;
+            left: -3px;
+            text-align: center;
+            text-decoration: none;
+            width: 290px;
+            padding: 3px;
+            background-color: orange;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        .atc3 a{
+            text-decoration: none;
+            color: white;
+        }
+        .S4{
+            font-size: larger;
+            position: relative;
+            top: -1300px;
+            left: 350px;
+            color: white;
+        }
+        .star4{
+            background-color: #878787;
+            text-align: center;
+            height: auto;
+            width: 300px;
+        }
+        .atc4{
+            font-weight: bold;
+            cursor: pointer;
+            position: relative;
+            left: -3px;
+            text-align: center;
+            text-decoration: none;
+            width: 290px;
+            padding: 3px;
+            background-color: orange;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        .atc4 a{
+            text-decoration: none;
+            color: white;
+        }
+        .S5{
+            font-size: larger;
+            position: relative;
+            top: -1640px;
+            left: 750px;
+            color: white;
+        }
+        .star5{
+            background-color: #878787;
+            text-align: center;
+            height: auto;
+            width: 300px;
+        }
+        .atc5{
+            font-weight: bold;
+            cursor: pointer;
+            position: relative;
+            left: -3px;
+            text-align: center;
+            text-decoration: none;
+            width: 290px;
+            padding: 3px;
+            background-color: orange;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        .atc5 a{
+            text-decoration: none;
+            color: white;
+        }
+        .S6{
+            font-size: larger;
+            position: relative;
+            top: -1980px;
+            left: 1150px;
+            color: white;
+        }
+        .star6{
+            background-color: #878787;
+            text-align: center;
+            height: auto;
+            width: 300px;
+        }
+        .atc6{
+            font-weight: bold;
+            cursor: pointer;
+            position: relative;
+            left: -3px;
+            text-align: center;
+            text-decoration: none;
+            width: 290px;
+            padding: 3px;
+            background-color: orange;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        .atc6 a{
+            text-decoration: none;
+            color: white;
+        }
+        .S7{
+            font-size: larger;
+            position: relative;
+            top: -1880px;
+            left: 350px;
+            color: white;
+        }
+        .star7{
+            background-color: #878787;
+            text-align: center;
+            height: auto;
+            width: 300px;
+        }
+        .atc7{
+            color: white;
+            font-weight: bold;
+            cursor: pointer;
+            position: relative;
+            left: -3px;
+            text-align: center;
+            text-decoration: none;
+            width: 290px;
+            padding: 3px;
+            background-color: orange;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        .atc7 a{
+            text-decoration: none;
+            color: white;
+        }
+        .S8{
+            font-size: larger;
+            position: relative;
+            top: -2220px;
+            left: 750px;
+            color: white;
+        }
+        .star8{
+            background-color: #878787;
+            text-align: center;
+            height: auto;
+            width: 300px;
+        }
+        .atc8{
+            font-weight: bold;
+            cursor: pointer;
+            position: relative;
+            left: -3px;
+            text-align: center;
+            text-decoration: none;
+            width: 290px;
+            padding: 3px;
+            background-color: orange;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        .atc8 a{
+            text-decoration: none;
+            color: white;
+        }
+        .S9{
+            font-size: larger;
+            position: relative;
+            top: -2560px;
+            left: 1150px;
+            color: white;
+        }
+        .star9{
+            background-color: #878787;
+            text-align: center;
+            height: auto;
+            width: 300px;
+        }
+        .atc9{
+            font-weight: bold;
+            cursor: pointer;
+            position: relative;
+            left: -3px;
+            text-align: center;
+            text-decoration: none;
+            width: 290px;
+            padding: 3px;
+            background-color: orange;
+            margin: 5px;
+            border-radius: 10px;
+        }
+        .atc9 a{
+            color: white;
+            text-decoration: none;
+        }
+        #nav-placeholder2{
+            position: relative;
+            top: -2500px;
+        }
+    </style>
+</head>
+<body>
+    <script src="https://code.jquery.com/jquery-1.10.2.js" ></script>
+    <div id="nav-placeholder">
+ </div>
+ <script>
+     $(function(){
+     $("#nav-placeholder").load("navbar.html");
+ });
+</script>
+<div class="heels">HEELS</div>
+<div class="_5THWM1">
+    <span class="_2i7N3j">Sort By</span>
+    <div class="_10UF8M_3LsR0e">Relevance</div>
+    <div class="_10UF8M">Popularity</div>
+    <div class="_10UF8M" id="PLH">Price -- Low to High</div>
+    <div class="_10UF8M" id="PHL">Price -- High to Low</div>
+    <div class="_10UF8M" id="NF">Newest First</div>
+</div>
+<div class="women">Women</div>
+    <div class="footwear">
+        <div class="FT">Women's Footwear<br>  <br></div>
+        <div class="SS">Heels <br> <br></div>
+        <div class="CS">Casual Shoes <br> <br></div>
+        <div class="SF">Sandals & Floaters <br> <br></div>
+        <div class="FF">Flip-Flops <br> <br></div>
+        <div class="L">Loafers <br> <br></div>
+        <div class="B">Boots <br> <br></div>
+        <div class="RS">Running Shoes <br> <br></div>
+    </div>
+    <div class="S1">
+        <img src="https://rukminim1.flixcart.com/image/580/696/k5txifk0/sandal/w/b/u/266-heel-39-popli-black-original-imafzdh6hhbhdyjg.jpeg?q=50" alt="" width="300px"> <br>
+        <div class="star1">
+            <div class="N1">Bata <br></div>
+            <div class="P1">Rs.800 <br> </div>
+            <img src="https://t4.ftcdn.net/jpg/03/69/04/01/360_F_369040116_CCwMAKzk0u6R60lLhNS4LDlOGL4bXilZ.jpg" alt="" width="100px"> <br>
+        </div>
+        <div class="atc1"><a href="Add_To_Cart.html"> Add to cart</a></div>
+    </div>
+    <!-- 2nd -->
+    <div class="S2">
+        <img src="https://rukminim1.flixcart.com/image/580/696/kbnz8nk0/sandal/e/d/j/6614901-3-bata-brown-original-imafsyzdrpd9mfgc.jpeg?q=50" alt="" width="300px" height="225px"> <br>
+        <div class="star2">
+            <div class="N2">Paragon <br></div>
+            <div class="P2">Rs.800 <br> </div>
+            <img src="https://t4.ftcdn.net/jpg/03/69/04/01/360_F_369040116_CCwMAKzk0u6R60lLhNS4LDlOGL4bXilZ.jpg" alt="" width="100px"> <br>
+        </div>
+        <div class="atc2"><a href="Add_To_Cart.html"> Add to cart</a></div>
+    </div>
+    <!-- 3rd -->
+    <div class="S3">
+        <img src="https://rukminim1.flixcart.com/image/580/696/xif0q/sandal/t/f/t/4-gola-13-black-37-alishtezia-black-original-imag4ckgmz9t53ad-bb.jpeg?q=50" alt="" width="300px" height="225px"> <br>
+        <div class="star3">
+            <div class="N3">5 Star <br></div>
+            <div class="P3">Rs.800 <br> </div>
+            <img src="https://t4.ftcdn.net/jpg/03/69/04/01/360_F_369040116_CCwMAKzk0u6R60lLhNS4LDlOGL4bXilZ.jpg" alt="" width="100px"> <br>
+        </div>
+        <div class="atc3"><a href="Add_To_Cart.html"> Add to cart</a></div>
+    </div>
+    <!-- 4th -->
+    <div class="S4">
+        <img src="https://rukminim1.flixcart.com/image/580/696/jy90eq80/sandal/c/3/8/ft-171-5-skoll-beige-original-imafgfnkwwnuxcaq.jpeg?q=50" alt="" width="300px" height="225px"> <br>
+        <div class="star4">
+            <div class="N4">Stylish<br></div>
+            <div class="P4">Rs.800 <br> </div>
+            <img src="https://t4.ftcdn.net/jpg/03/69/04/01/360_F_369040116_CCwMAKzk0u6R60lLhNS4LDlOGL4bXilZ.jpg" alt="" width="100px"> <br>
+        </div>
+        <div class="atc4"><a href="Add_To_Cart.html"> Add to cart</a></div>
+    </div>
+    <!-- 5th -->
+    <div class="S5">
+        <img src="https://rukminim1.flixcart.com/image/580/696/km3s1ow0/sandal/y/0/o/5-sd-08-38-aasheez-beige-original-imagf38yhkhhvswf.jpeg?q=50" alt="" width="300px" height="225px"> <br>
+        <div class="star5">
+            <div class="N5">Fashion<br></div>
+            <div class="P5">Rs.800 <br> </div>
+            <img src="https://t4.ftcdn.net/jpg/03/69/04/01/360_F_369040116_CCwMAKzk0u6R60lLhNS4LDlOGL4bXilZ.jpg" alt="" width="100px"> <br>
+        </div>
+        <div class="atc5"><a href="Add_To_Cart.html"> Add to cart</a></div>
+    </div>
+    <!-- 6th -->
+    <div class="S6">
+        <img src="https://rukminim1.flixcart.com/image/580/696/kb89ea80/sandal/e/6/e/w36-40-jade-maroon-original-imafsmtda2pzgcmv.jpeg?q=50" alt="" width="300px" height="225px"> <br>
+        <div class="star6">
+            <div class="N6">Trend<br></div>
+            <div class="P6">Rs.800 <br> </div>
+            <img src="https://t4.ftcdn.net/jpg/03/69/04/01/360_F_369040116_CCwMAKzk0u6R60lLhNS4LDlOGL4bXilZ.jpg" alt="" width="100px" > <br>
+        </div>
+        <div class="atc6"><a href="Add_To_Cart.html"> Add to cart</a></div>
+    </div>
+    <!-- 7th -->
+    <div class="S7">
+        <img src="https://rukminim1.flixcart.com/image/580/696/jcm9fgw0/sandal/g/k/s/vj1229-36-misto-gold-original-imaffpdnbjacygrj.jpeg?q=50" alt="" width="300px" height="225px"> <br>
+        <div class="star7">
+            <div class="N7">Cutie <br></div>
+            <div class="P7">Rs.800 <br> </div>
+            <img src="https://t4.ftcdn.net/jpg/03/69/04/01/360_F_369040116_CCwMAKzk0u6R60lLhNS4LDlOGL4bXilZ.jpg" alt="" width="100px"> <br>
+        </div>
+        <div class="atc7"><a href="Add_To_Cart.html"> Add to cart</a></div>
+    </div>
+    <!-- 8th -->
+    <div class="S8">
+        <img src="https://rukminim1.flixcart.com/image/580/696/xif0q/sandal/q/e/s/5-777-aliya-gold-original-imaghmg6ebfe7kdn.jpeg?q=50" alt="" width="300px" height="225px"> <br>
+        <div class="star8">
+            <div class="N8">Steps <br></div>
+            <div class="P8">Rs.800 <br> </div>
+            <img src="https://t4.ftcdn.net/jpg/03/69/04/01/360_F_369040116_CCwMAKzk0u6R60lLhNS4LDlOGL4bXilZ.jpg" alt="" width="100px"> <br>
+        </div>
+        <div class="atc8"><a href="Add_To_Cart.html"> Add to cart</a></div>
+    </div>
+    <!-- 9th -->
+    <div class="S9">
+        <img src="https://rukminim1.flixcart.com/image/580/696/k7hy07k0/sandal/h/m/v/8187-6-fashimo-red-original-imafppb2rzqcfekh.jpeg?q=50" alt="" width="300px" height="225px"> <br>
+        <div class="star1">
+            <div class="N9">Nike <br></div>
+            <div class="P9">Rs.800 <br> </div>
+            <img src="https://t4.ftcdn.net/jpg/03/69/04/01/360_F_369040116_CCwMAKzk0u6R60lLhNS4LDlOGL4bXilZ.jpg" alt="" width="100px" height="17px"> <br>
+        </div>
+        <div class="atc9"><a href="Add_To_Cart.html"> Add to cart</a></div>
+    </div>
+    <div id="nav-placeholder2">
+
+    </div>
+<script>
+$(function(){
+  $("#nav-placeholder2").load("footer.html");
+});
+</script>
+</body>
+</html>
+
+

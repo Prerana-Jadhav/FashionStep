@@ -1,0 +1,81 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+}
+.navbar{
+    position: relative;
+    top: -15px;
+    background-color:#F5F2F2;
+}
+.navbar ul{
+    overflow: auto;
+}
+.navbar li{
+    float: right;
+    list-style: none;
+    margin: 9px 16px;
+    padding-top: 2px;
+   
+}
+.navbar li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: black;
+}
+.navbar .home{
+    margin-top: 0.5em;
+    margin-left: 0em;
+}
+.navbar li a:hover{
+    text-decoration: underline;
+}
+.navbar1 .search{
+    float: right;
+    margin-right: 2em;
+}
+.navbar1 input{
+    border: 2px solid black;
+    border-radius: 5em;
+    padding: 5px 5px;
+    width: 200px;
+    text-align: center;
+}
+.navbar1{
+    position: relative;
+    top: -30px;
+    background-color:white;
+    
+}
+.navbar1 ul{
+    overflow: auto;
+}
+.navbar1 li{
+    float:left;
+    text-align: center;
+    list-style: none;
+    /* margin: 20px 20px; */
+    margin-left: 6em;
+    margin-right: 6em;
+    margin-top: 0.5em;
+    padding-top: 2px;
+    padding-bottom: 6px;
+   
+}
+.navbar1 li a{
+    padding: 3px 3px;
+    text-decoration: none;
+    color: black;
+}
+.navbar1 li a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 1em;
+    padding: 4px;
+}
+.navbar1 .search .icon{
+    padding: 10px;
+    position: relative;
+    top: 2.5px;
+    cursor: pointer;
+    text-align: right;
+}

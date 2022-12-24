@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add To Cart</title>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+    <style>
+      .Place{
+        position: relative;
+        top: -20px;
+        background-color: #E0D0EC;
+        width: 900px;
+        height: 400px;
+      }
+      .Fashion{
+        position: relative;
+        top: 5px;
+        text-align: center;
+        background-color: white;
+        padding: 4px;
+        font-size: 25px;
+        font-weight: bold;
+      }
+      .Name{
+        position: relative;
+        top: 10px;
+        height: 50px;
+        background-color: white;
+        font-weight: normal;
+      }
+      #N{
+        position: relative;;
+        left: 100px;
+        top: -33px;
+      }
+      #W{
+        position: relative;
+        left: 30px;
+        border-radius: 5px;
+        font-size: medium;
+        background-color: rgb(192, 182, 182);
+      }
+      #W:hover{
+        background-color: #E0D0EC;
+      }
+      #AD{
+        position: relative;
+        top: -45px;
+        font-weight: normal;
+      }
+      #Order{
+        padding: 15px;
+        position: relative;
+        top: -230px;
+        left: 250px;
+        background-color: white;
+        height: 200px;
+        width: 600px;
+        font-size: 30px;
+      }
+      .info{
+        position: relative;
+        left: 20px;
+        top: 15px;
+        font-weight: normal;
+        font-size: medium;
+      }
+      #Price{
+        background-color: rgb(134, 129, 129);
+        position: relative;
+        top: 10px;
+        width: 150px;
+        color: white;
+        font-size: large;
+        border-radius: 5px;
+      }
+      #PO{
+        background-color: #E0D0EC;
+        position: relative;
+        top: 20px;
+        width: 150px;
+        color: black;
+        font-weight: normal;
+        font-size: medium;
+        border-radius: 5px;
+        cursor: pointer;
+      }
+      #PO:hover{
+        color: white;
+        background-color: #cfa8ed;
+      }
+      #SFL{
+        background-color: white;
+        position: relative;
+        top: 35px;
+        width: 250px;
+        color: black;
+        font-size: medium;
+        border-radius: 5px;
+        font-weight: normal;
+      }
+      #SFL:hover{
+        background-color: #cfa8ed;
+      }
+      #R{
+        background-color: white;
+        position: relative;
+        top: 35px;
+        width: 250px;
+        color: black;
+        font-size: medium;
+        border-radius: 5px;
+        font-weight: normal;
+      }
+      #R:hover{
+        background-color: #cfa8ed;
+      }
+      .sneak{
+        position: relative;
+        top: 20px;
+        left: 20px;
+      }
+      .PD{
+        background-color: rgb(207, 197, 197);
+        position: relative;
+        top: -570px;
+        left: 1000px;
+        padding: 20px;
+        height: 360px;
+        width: 400px;
+      }
+      .PDet{
+        background-color: rgb(153, 144, 144);
+        padding: 10px;
+        font-size: large;
+      }
+      #Rup{
+        position: relative;
+        font-weight: normal;
+        top: -35px;
+        left: 300px;
+      }
+      #Di{
+        position: relative;
+        font-weight: normal;
+        top: -33px;
+        left: 300px;
+      }
+      #T{
+        position: relative;
+        font-weight: normal;
+        top: -35px;
+        left: 300px;
+      }
+      #Fr{
+        position: relative;
+        font-weight: normal;
+        top: -35px;
+        left: 300px;
+      }
+    </style>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+    <!--Navigation bar-->
+    <div id="nav-placeholder">
+
+    </div>
+
+<script>
+$(function(){
+  $("#nav-placeholder").load("navbar.html");
+});
+</script>
+<!--end of Navigation bar-->
+   <div class="Place">
+      <div class="Fashion">Fashion Steps(1)</div>
+      <div class="Add">
+        <nav class="Name">Deliever to: <p id="N">Ishita Rathod, 411009<button id="W">Work</button></p>
+          <p id="AD">Address: Tavare Colony,Parvati Pytha, Pune </p></nav></div>
+        <div class="sneak"><img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcRhAsV_wXQ61cmOzkgQ7u3lIx5K9rahHbrskCxeQw0zvmqJfLUM" alt=""></div>
+        <nav id="Order">Sneakers <br>
+          <div class="info">Item 1 <br>Colour:Mixed(Blue,Black,Silver) <br><button id="Price">Rs.850</button> <br>
+            <div class="PO"><button id="PO"><a href="Payment.html"> Place Order</button></a> <br></div>
+            <button id="SFL">SAVE FOR LATER</button> <button id="R">REMOVE</button>
+          </div>
+        </nav>
+        <div class="PD">
+          <div class="PDet">Price Details</div>
+            <p>Price(1 item) <p id="Rup"> Rs. 850 </p></p>
+            <p>Discount <p id="Di">- Rs.50</p></p>
+            <p> Delivery Charges <p id="Fr"> Free</p></p>
+            <p><p>-------------------------------------------------------------------------</p> <br> Total <p id="T">Rs.800</p></p>
+        </div>
+   </div>
+<div id="nav-placeholder2">
+
+</div>
+
+<script>
+$(function(){
+$("#nav-placeholder2").load("Footer.html");
+});
+</script>
+
+</body>
+</html>
